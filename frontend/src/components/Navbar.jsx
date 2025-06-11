@@ -30,11 +30,11 @@ const Navbar = () => {
           bgGradient="linear(to-r, cyan.400, blue.500, purple.600)"
           bgClip={"text"}
         >
-          <Link to={"/"}>Product Store</Link>
+          <Link href={"/"}>Product Store</Link>
         </Text>
         <HStack spacing={4} mt={{ base: 4, sm: 0 }}>
-          <Link to={"/create"}>
-            <Button>
+          <Link href="/create">
+            <Button aria-label="Create new item">
               <PlusSquareIcon fontSize={20} />
             </Button>
           </Link>
