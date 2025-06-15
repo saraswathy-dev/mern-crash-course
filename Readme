@@ -1,0 +1,56 @@
+# MERN Crash Course
+
+This project is a demonstrating the MERN stack by building product store (MongoDB, Express, React, Node.js).
+
+## Features
+
+- Full-stack application using MongoDB, Express, React, and Node.js
+- RESTful API backend
+- React frontend with modern hooks and components
+- CRUD operations
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm or yarn
+- MongoDB
+
+### Installation
+
+1. Clone the repository:
+    ```
+    git clone <repository-url>
+    cd mern-crash-course
+    ```
+
+2. Install backend dependencies:
+    ```
+    cd backend
+    npm install
+    ```
+
+3. Install frontend dependencies:
+    ```
+    cd ../frontend
+    npm install
+    ```
+
+4. Set up environment variables as needed (see `.env.example`).
+
+### Running the App
+
+- Start the backend server:
+  ```
+  cd backend
+  npm run dev
+  ```
+
+- Start the frontend React app:
+  ```
+  cd ../frontend
+  npm start
+  ```
+
+ 
